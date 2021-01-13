@@ -9,6 +9,7 @@ int main(void)
 
     return 0;
 }
+
 void hanoi(char A, char B, char C, int n)
 {
     if( n==1 )
