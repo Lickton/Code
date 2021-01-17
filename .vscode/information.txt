@@ -1,1 +1,0 @@
-This documentation is for compiling and running.
