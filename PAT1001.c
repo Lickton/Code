@@ -2,7 +2,7 @@
  * PAT
  * 2021.2.26
  * github @Lickton
- **/
+ * */
 #include <stdio.h>
 int main(void)
 {
