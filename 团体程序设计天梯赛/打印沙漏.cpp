@@ -17,6 +17,7 @@ int main()
         while( !(k*k <= (n+1)/2 && (n+1)/2 < (k+1)*(k+1)) )
             k++;
         int count1 = k;
+        //count1 是上半部分的函数；
         for ( int m=0; m<count1 ; m++ )
         {
             for ( int i=0; i<m; i++ )
@@ -27,7 +28,8 @@ int main()
         }    
         
         int count2 = k - 1;
-        for( int m=0; m<count2; m++)
+        //count2 是下半部分的行数；
+        for( int m=0; m<count2; m++)//打印下半部分
         {
             for ( int i=0; i<count2-1-m; i++)
                 cout << ' ';
