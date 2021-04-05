@@ -1,5 +1,5 @@
 /*
- * 洛谷
+ * AHUOJ
  * 2021.4.5
  * github @Lickton
  * */
